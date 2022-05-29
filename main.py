@@ -28,7 +28,7 @@ class Student:
 
     def add_track(self, new_track):
         self.tracks.extend([new_track])
-        # self.tracks = add_track
+        
 
     def get_score(self):
         return self.score
