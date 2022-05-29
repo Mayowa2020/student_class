@@ -26,8 +26,9 @@ class Student:
     def change_age(self, new_age):
         self.age = new_age 
 
-    def add_track(self, add_track):
-        self.tracks = add_track
+    def add_track(self, new_track):
+        self.tracks.extend([new_track])
+        # self.tracks = add_track
 
     def get_score(self):
         return self.score
