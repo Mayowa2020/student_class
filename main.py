@@ -29,14 +29,10 @@ class Student:
     def add_track(self, new_track):
         self.tracks.extend([new_track])
         
-
     def get_score(self):
         return self.score
     
-    # def display_newinfo(self):
-    #     print(self.change_name, self.change_age, self.addtrack, self.score)
-
-    def display(self):
+    def updated_info(self):
         print()
         print("Name:", self.name)
         print("Age:", self.age)
@@ -51,4 +47,4 @@ Bob.change_age("34")
 Bob.add_track("UI/UX")
 Bob.get_score()
 
-Bob.display()
+Bob.updated_info()
